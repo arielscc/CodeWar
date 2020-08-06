@@ -15,5 +15,3 @@ function maskify(cc) {
 function maskify(cc) {
   return cc.replace(/.(?=....)/g, '#');
 }
-
-console.log(maskify('123192318230'));
